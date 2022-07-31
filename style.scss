@@ -1,0 +1,89 @@
+    .logo {
+        margin-top : 17%;
+        text-align: center;
+    }
+
+    .search_bar {
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 40%;
+    display:flex;
+    align-items: center;
+    border-radius: 35px;
+    border: 2px solid #ada0a0;
+    font-size:25px;
+    }
+
+    .search_bar_name {
+        width:fit-content;
+        height:10%;
+        margin-top: 10px;
+        font-size : 25px;
+        cursor: pointer;
+        background-color: #eae1e151;
+        border: 5px solid #FFFFFF;
+        text-align: center;
+    }
+
+    .search_bar_name:hover {
+        background-color: #F8F3F1;
+        border: 0.2px solid #818c98;
+    }
+    ul {
+        position:absolute;
+        top:0;
+        right:0;
+        list-style-type: none;
+    }
+    li {
+        float: right;
+        margin: 5px;
+        
+    }
+    .redirectButton {
+        font: Arial;
+        font-size: 20px;
+        border: 2px solid white;
+        background-color: white;
+    }
+
+    .redirectButton:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .text_box {
+        margin : 400px;
+        margin-left: 800px;
+        margin-top:20px;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .imagesStyling {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 2px;
+        font-size: 20px;
+        color: #4285F4;
+        margin-left:auto;
+    }
+
+    #searchForImage {
+        margin-bottom:0px;
+    }
+
+    .backButton {
+        @extend ul,li, .redirectButton;
+    }
+
+    .backButton:hover {
+    @extend .redirectButton:hover;
+    }
+
+    
+

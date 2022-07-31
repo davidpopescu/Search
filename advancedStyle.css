@@ -1,0 +1,46 @@
+#logoimg {
+  height: 10%;
+  width: 10%; }
+
+.advancedSearchText {
+  font-size: 20px;
+  color: red;
+  margin-top: 5%;
+  margin-left: 3%; }
+
+th {
+  left: 0;
+  padding: 2%; }
+
+.googleAdvanced {
+  width: 700px;
+  height: 40px; }
+
+td {
+  text-align: left;
+  padding-left: 5%;
+  font-size: 20px; }
+
+.button {
+  margin-top: 2%;
+  left: 53%;
+  position: absolute;
+  cursor: pointer;
+  background-color: #1E90FF;
+  border-color: #1E90FF;
+  color: white;
+  width: fit-content;
+  height: 5%; }
+
+.button:hover {
+  background-color: blue; }
+
+@media (max-width: 1000px) {
+  .googleAdvanced {
+    width: 400px;
+    height: 20px; } }
+@media (max-width: 600px) {
+  td {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=advancedStyle.css.map */

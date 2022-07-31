@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="advancedStyle.css">
+        <link rel="icon" href="images/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <a href = "https://www.google.com/search">
+            <img  id = "logoimg" src = images/logo.png alt = "Google">
+            </a>
+        </div>
+        <div class = "advancedSearchText">
+            Advanced search
+            <hr>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <th>Find pages with...</th>
+                </thead>
+                <tbody>
+                    <form action = "https://google.com/search">
+                        <tr><td>all these words:</td>
+                            <td>
+                            <input type="search" class = "googleAdvanced" name="as_q">
+                            </td>
+                        </tr>
+                        <tr><td>this exact word or phrase:</td>
+                            <td>
+                                <input type="search" class = "googleAdvanced" name="as_epq">
+                            </td>
+                        </tr>
+                        <tr><td> any of these words: </td>
+                            <td>
+                                <input type="search" class = "googleAdvanced" name="as_oq">
+                            </td>
+                        </tr>
+                        <tr><td> none of these words: </td>
+                            <td>
+                                <input type="search" class = "googleAdvanced" name="as_eq">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" class = "button" value="Advanced Search"></td>
+                        </tr>
+                    </form>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <form action="index.html">
+                <input class = "backButton" type="submit" value="back to Google Search">
+            </form>
+        </div>
+    </body>
